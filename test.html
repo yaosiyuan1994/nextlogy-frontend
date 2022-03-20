@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: bisque;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .grid{
+            max-height: 240px;
+            max-height: 240px;
+            display: grid;
+            grid-template-areas: 
+                "left rightup"
+                "left rightdown";
+            grid-template-columns: 60px 1fr;
+            grid-template-rows: 1fr 3fr;
+        }
+        .left{
+            grid-area: left;
+            font-size: 24px;
+            color: brown;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+        .right-up{
+            grid-area: rightup;
+            font-size: 12px;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+        .right-down{
+            grid-area: rightdown;
+            font-size: 12px;
+            border: 1px solid;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <p class="left">左边</p>
+        <p class="right-up">右上</p>
+        <p class="right-down">右下</p>
+    </div>
+</body>
+</html>

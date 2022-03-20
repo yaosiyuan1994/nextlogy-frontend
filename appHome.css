@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction:column ;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    font-style: normal;
+}
+img{
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    height: 694.58px;
+    background-image: url(http://nextlogy.co.jp/wp/wp-content/uploads/2020/10/online-programming-course-hero-section-bg.svg);
+    background-size: cover;
+    background-position: bottom right;
+    display: flex;
+    justify-content: center;
+}
+.pageHead{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 13fr;
+    max-width: 1182px;
+    padding: 0 20px;
+}
+.headTop{
+    align-items: center;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    position: relative;
+}
+/* .pageLogo{
+    text-align: initial;
+} */
+.pageLogo img{
+    width: 108px;
+    height: 56px;
+}
+.pageMenu{
+    display: flex;
+    list-style: none;
+    text-indent: 2em;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+.burger{
+    display: none;
+}
+.headMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.headLift{
+    display: grid;
+    padding: 0 36px;
+    grid-template-rows: 45px 3fr 2fr;
+    color: #FFFFFF;
+}
+.pageSlogan{
+    display: flex;
+}
+.attentionMark{
+    position: relative;
+    top: 5px;
+    background: #F7B500;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.sloganTitle{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-left:13px
+}
+.sloganTextJp{
+    font-size: 28px;
+    line-height:  50px;
+    font-weight: 600;
+}
+.sloganTextEng{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+.headRight{
+    position: relative;
+    top: 10px;
+}
+.companyVideo video{
+    width: 560px;
+}
+.companyDisplay{
+    position: absolute;
+    text-align: center;
+}
+main{
+    background-image: url(http://nextlogy.co.jp/wp/wp-content/uploads/2020/10/online-programming-courses-section-bg.svg);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+}
+.companyDisplay{
+    margin-top: 41px;
+    display: grid;
+    width: 100%;
+    max-width: 1182px;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+.companyDisplayFirst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 28px;
+}
+.smapleImageFirst{
+    padding-right: 30px;
+}
+.smapleImageFirst img{
+    width: 504px;
+    height: 332px;
+}
+.companyExplain{
+    display: grid;
+    grid-template-rows: 55px 138px 211px;
+}
+.companyDisplaySecond{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 35px;
+    background-image: url("http://nextlogy.co.jp/wp/wp-content/uploads/2022/01/online-coding-course-dots-bg-1.png");
+    background-position: top right 32px;
+    background-repeat: no-repeat;
+    justify-items: center;
+}
+.companyNextlogy{
+    display: flex;
+}
+.companyName{
+    margin-left: 13px;
+}
+.sloganTextJp2{
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+}
+.sloganTextEng2{
+    margin-top: 34px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: start;
+}
+.sampleImageSecond img{
+    width: 333px;
+}
+.businessSample{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    box-shadow: 0 0 18px rgb(245 237 237);
+    width: min-content;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.businessSample:hover{
+    transform: translateY(-20px) scale(1.05);
+}
+.businessTitle{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    margin-top: 26px;
+    text-align: start;
+    padding: 0 49px;
+}
+.businessTitleName{
+    font-size: 14px;
+    font-weight: 600;
+}
+.businessText{
+    font-size: 20px;
+    font-weight: 800;
+}
+figure{
+    background-image: url(http://nextlogy.co.jp/wp/wp-content/uploads/2020/10/online-programming-course-hero-section-bg.svg);
+    background-position: bottom;
+    height: 332px;
+    margin-top: 1100px;
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.secondSloganText{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 39px;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    background-color: #000000;
+    color: #ffffff;
+}
+.firstFooter{
+    display: flex;
+    justify-content: center;
+}
+.firstFooterChild{
+    display: grid;
+    grid-template-columns: 3fr 6fr;
+    align-items: center;
+    padding-top: 77px;
+    padding-bottom: 77px;
+    justify-items: center;
+}
+.publicCompanyName{
+    font-weight: 600;
+    font-size: 16px;
+}
+.publicCompanyRight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.informationItem{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2;
+}
+.informationTitle{
+    font-weight: 400;
+    font-size: 24px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: start;
+    /* margin-left: 32px; */
+    /* line-height: 33px; */
+}
+.companyInformation{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    /* justify-items: center; */
+}
+.companyService{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.companyAccess{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    /* justify-items: start; */
+    /* margin-left: -156px; */
+}
+.companyAccess>p{
+    text-align: start;
+}
+.secondFooter{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 45px;
+    font-size: 14px;
+}
+
+@media (max-width:1024px) {
+    header{
+        height: 1068px;
+    }
+    .pageHead{
+        grid-template-rows: 170px 1fr;
+    }
+    .headMain{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .headLift{
+        display: grid;
+        grid-template-rows: 1fr 3fr 2fr;
+        padding: 0 26px;
+        width: 100hw;
+        position: absolute;
+        left: 0;
+        top: 105px;
+    }
+    .companyDisplay{
+        margin-top: 80px;
+    }
+    .companyDisplayFirst{
+        grid-template-columns: 1fr;
+    }
+    .companyVideo video{
+        width: 100%;
+        height: 100%;
+    }
+    .smapleImageFirst img{
+        width: 100%;
+        height: 100%;
+    }
+    .sampleImageSecond img{
+        width: 100%;
+        height: 100%;
+    }
+    .companyExplain{
+        padding: 0;
+        grid-template-rows: 1fr 2fr 2fr;
+    }
+    .sloganTextEng2{
+        margin-top: 12px;
+    }
+    .companyDisplaySecond{
+        margin-top: -170px;
+        padding-left: 10px;
+    }
+    .sampleImageSecond img{
+        width: 300px;
+    }
+    figure{
+        margin-top: 1540px;
+    }
+    .firstFooterChild{
+        padding: 77px 40px;
+    }
+    .publicCompanyLift{
+        justify-self: flex-start;
+    }
+}
+@media  (max-width:921px) {
+    .pageMenu{
+        display: none;
+    }
+    .headTop{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .burger{
+        display: block;
+        width: 126px;
+        height: 6px;
+        position: relative;
+        justify-self: end;
+        cursor: pointer;
+    }
+    .burgerLine1,
+    .burgerLine2,
+    .burgerLine3 {
+        width: 20px;
+        height: 2px;
+        background-color: #f7b500;
+    }
+    .burgerLine1{
+        position: absolute;
+        top: -6px;
+    }
+    .burgerLine3{
+        position: absolute;
+        top: 6px;
+    }
+    .pageHead.open nav{
+        display: grid;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        grid-auto-rows: max-content;
+        opacity: 0;
+        animation: slideDown 0.6s ease-out forwards;
+    }
+    .pageHead.open nav>*{
+        animation: showMenu 0.5s linear forwards 0.4s;
+        font-size: 18px;
+        margin: 4px 0;
+        opacity: 0;
+    }
+    .pageHead.open .burgerLine1,
+    .pageHead.open .burgerLine2,
+    .pageHead.open .burgerLine3{
+        transition: 0.4s ease;
+    }
+    .pageHead.open .burgerLine1{
+        transform: rotate(45deg) translate(3px,5px);
+    }
+    .pageHead.open .burgerLine2{
+        transform: translateX(5px);
+        opacity: 0;
+    }
+    .pageHead.open .burgerLine3{
+        transform: rotate(-45deg) translate(3px,-5px);
+    }
+    @keyframes slideDown {
+        from{
+            height: 0;
+            opacity: 0;
+        }
+        to{
+            height: 100vh;
+            padding-top: 80px;
+            opacity: 1;
+        }
+    }
+    @keyframes showMenu {
+        from{
+            opacity: 0;
+            transform: translateY(-1vh);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }        
+    }
+}
